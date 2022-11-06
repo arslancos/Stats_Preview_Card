@@ -1,16 +1,20 @@
-Order Summary Form Project
+Status Preview Card Project
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). 
+This is a solution to the [Status preview challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). 
 
 ### Screenshot
 
 This is the final screenshot of the project.
 
-https://github.com/arslancos/Order_Summary_Form/blob/master/order_summary_screenshot.jpg
+Desktop Screen
+https://github.com/arslancos/Stats_Preview_Card/blob/main/desktop_screenshot.jpg
+
+Mobile Screen
+https://github.com/arslancos/Stats_Preview_Card/blob/main/mobile_screenshot.jpg
 
 ### Links
 
-- Solution URL: https://github.com/arslancos/Order_Summary_Form.git
+- Solution URL: https://github.com/arslancos/Stats_Preview_Card.git
 
 ## My process
 
@@ -19,9 +23,10 @@ https://github.com/arslancos/Order_Summary_Form/blob/master/order_summary_screen
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 
 ### What I learned
 
-This is my first project using HTML and CSS and I am very happy for this. At the beginning, it was the very difficult challenge. I tried many times to do it, especially using Flexbox. But it helped me to understand Flexbox in detail.
+I could use CSS Flexbox and Grid together. But designing of responsive layout was a bot challenging for me.
 
 
