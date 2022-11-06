@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    width: 1000px;
+    height: 600px;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: hsl(244, 38%, 16%);
+    width: 70%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cont_right {
+    position: relative;
+    width: 100%;
+}
+.cont_right::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: hsl(277, 64%, 41%);
+    opacity: 0.6;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.top_text {
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+span {
+    color: hsl(277, 64%, 61%);
+}
+p.header {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+p.minitext {
+    margin-top: 15px;
+    opacity: 0.5;
+    font-size: 12px;
+    line-height: 1.3;
+    padding-right: 10px;
+}
+.alt_texts {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    margin: 0 auto;
+    opacity: 0.5;
+    padding-top: 5px;
+}
+.bot_text {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+@media only screen and (max-width: 425px) {
+    body {
+        text-align: center;
+        height: 1000px;
+        justify-content: left;
+        align-items: initial;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        height: 620px;
+        width: 320px;
+        margin: 100px 30px;
+    }
+    .cont_right {
+        width: 100%;
+        height: 220px;
+        position: relative;
+        top: -390px;
+    }
+    .cont_left{
+        width: 100%;
+        height: 350px;
+        position: relative;
+        top: 180px;
+    }
+    .bot_text {
+        flex-direction: column;
+        padding: 0;
+    }
+    p.minitext {
+        font-size: 16px;
+    }
+    .alt_div {
+        margin-top: 20px;
+    }
+}
